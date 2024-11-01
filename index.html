@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="styles/styles.css" />
     <title>AI Funny Jokes Generator</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>Welcome to the AI Funny Joke Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="form-generator">
           <input
             type="text"
             name=""
@@ -26,15 +27,7 @@
           <input type="submit" name="" id="" class="submit-btn" />
         </form>
       </main>
-      <div class="poem-div">
-        <p>
-          There once was a man from Peru. <br />
-          Who dreamed he was eating his shoe. <br />
-          He woke up at night. <br />
-          With a terrible fright. <br />
-          To find out his dream had come true!
-        </p>
-      </div>
+      <div class="poem-div" id="poem-div"></div>
       <footer>
         This AI Project was coded by
         <a href="https://github.com/GitauEva" target="_blank">Eva Gitau</a> and
